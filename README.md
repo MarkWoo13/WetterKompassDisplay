@@ -2,6 +2,22 @@
 
 WetterKompassDisplay is an Arduino/ESP32 sketch for a circular weather dashboard on a Waveshare ESP32-S3 touch display. It reads live data from an Ecowitt/GW3000 weather station and renders wind, temperature, pressure, humidity, rain, lightning distance, WBGT and status icons in a compact compass-style UI.
 
+## Preview
+
+![WetterKompassDisplay Preview](images/preview-clean.png)
+
+WetterKompassDisplay renders a compact compass-style weather dashboard for the Waveshare ESP32-S3-Touch-LCD-2.8C. The UI combines current weather values, wind direction, rain data, lightning status and WBGT information on a circular display.
+
+## Display Layout
+
+![WetterKompassDisplay Annotated](images/preview-annotated.png)
+
+The display uses two main rings:
+
+- The outer cyan ring acts as the compass and wind direction indicator.
+- The inner green ring shows the WBGT status color.
+
+Additional status icons show WLAN, rain and lightning activity. The center area displays temperature, rain rate, daily rain, relative pressure, humidity and wind speed.
 ## Hardware
 
 - Waveshare ESP32-S3-Touch-LCD-2.8C
