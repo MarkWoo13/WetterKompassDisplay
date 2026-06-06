@@ -1,0 +1,13 @@
+# Local secrets
+secrets.h
+
+# Arduino / PlatformIO build outputs
+.pio/
+build/
+*.bin
+*.elf
+*.map
+
+# Editor / OS files
+.vscode/
+.DS_Store
